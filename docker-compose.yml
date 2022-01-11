@@ -1,0 +1,11 @@
+version: '1.1'
+
+services:
+    head:
+        build: .
+        image: acopar2/orange-docker
+        ports: 
+            - "5901:5901"
+            - "6901:6901"
+
+
